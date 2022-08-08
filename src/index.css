@@ -1,0 +1,44 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: lightblue;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+.scrollBar {
+  max-height: 500px;
+  overflow-x: hidden;
+}
+button.btn.btn-info.mr-3 {
+  margin-right: 15px;
+  color: #fff;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(83, 204, 245);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(152, 204, 221);
+}
